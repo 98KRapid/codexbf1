@@ -3608,7 +3608,7 @@ getgenv().ToTargets = function(p)
 
 print("Load Script")
 
-local Library = Update:Window("CodeX ","Ver : RgbTex",Enum.KeyCode.RightControl);
+local Library = Update:Window("Codex ","Ver : RgbTex",Enum.KeyCode.RightControl);
 
 local H = Library:AddTab("Home","6026568198")
 local Main = Library:AddTab("Level Farm","13075651575")
@@ -11417,7 +11417,7 @@ end)
     end)
     
     P:AddToggle("Aimbot Skill Nearest",false,function(MakoriGG)
-    AimSkillNearest = CodeX
+    AimSkillNearest = Codex
 end)
 
 spawn(function()
