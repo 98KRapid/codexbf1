@@ -12,7 +12,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "http://www.roblox.com/asset/?id=16191771622"
+ImageButton1.Image = "http://www.roblox.com/asset/?id=12523036534"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
@@ -255,7 +255,7 @@ local LogoHub = Instance.new("ImageLabel")
 	LogoHub.BackgroundTransparency = 1.000
 	LogoHub.Position = UDim2.new(0, 0, 0, 1)
 	LogoHub.Size = UDim2.new(0, 150, 0, 150)
-	LogoHub.Image = "http://www.roblox.com/asset/?id="..tostring(16191771622)
+	LogoHub.Image = "http://www.roblox.com/asset/?id="..tostring(12523036534)
 
 	local ScrollTab = Instance.new("ScrollingFrame")
 	ScrollTab.Name = "ScrollTab"
@@ -749,7 +749,7 @@ local LogoToggle = Instance.new("ImageLabel")
 	LogoToggle.BackgroundTransparency = 1.000
 	LogoToggle.Position = UDim2.new(0, 7, 0, 2)
 	LogoToggle.Size = UDim2.new(0, 26, 0, 26)
-	LogoToggle.Image = "http://www.roblox.com/asset/?id="..tostring(16191771622)
+	LogoToggle.Image = "http://www.roblox.com/asset/?id="..tostring(12523036534)
 
 			Circle.Name = "Circle"
 			Circle.Parent = ToggleImage
@@ -3626,17 +3626,17 @@ local TES = Library:AddTab("Nothing Here","")
 local Time = H:AddLabel("Executor Time");spawn(function() getgenv().Time = true;while true do wait(.1) UpdateTime() end end);function UpdateTime() local date = os.date("*t");local hour = (date.hour) % 24;local ampm = hour < 12 and "AM" or "PM";local timezone = string.format("%02i:%02i:%02i %s", ((hour -1) % 12) + 1, date.min, date.sec, ampm);local datetime = string.format("%02d/%02d/%04d", date.day, date.month, date.year);local LocalizationService = game:GetService("LocalizationService");local Players = game:GetService("Players");local player = Players.LocalPlayer;local name = player.Name;local result, code = pcall(function()   return LocalizationService:GetCountryRegionForPlayerAsync(player)  end);Time:Set(" : " .. timezone);Time:Set("Executor Time: " .. datetime .. " [ " .. code .. " ]");spawn(function() if getgenv().Time then pcall(function()  while wait() do  Time()  end end) end end) end
 
 H:AddLabel("Script PC/Mobile")
-H:AddLabel("CodeX - Blox Fruits")
+H:AddLabel("Bem Vindo Ao HygorL Hub")
 
 H:AddSeperator("Credit")
 
 
-H:AddButton("Copy Hub Name",function()
-setclipboard("CodeX")
+H:AddButton("clique aqui e cole",function()
+setclipboard("hygorl lindo")
 end)
 
-H:AddButton("Discord robloxscripts",function()
-setclipboard("discord.gg/robloxscripts")
+H:AddButton("Discord ScriptersGold",function()
+setclipboard("discord.gg/scriptersgold")
 end)
 
 H:AddLine()
@@ -6085,7 +6085,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Superhuman" ,
-							Icon = "http://www.roblox.com/asset/?id=16191771622",
+							Icon = "http://www.roblox.com/asset/?id=12523036534",
 							Duration = 2.5
 						})
 					end
@@ -6097,7 +6097,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Death Step" ,
-							Icon = "http://www.roblox.com/asset/?id=16191771622",
+							Icon = "http://www.roblox.com/asset/?id=12523036534",
 							Duration = 2.5
 						})
 					end
@@ -6109,7 +6109,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have SharkMan Karate" ,
-							Icon = "http://www.roblox.com/asset/?id=16191771622",
+							Icon = "http://www.roblox.com/asset/?id=12523036534",
 							Duration = 2.5
 						})
 					end
@@ -6121,7 +6121,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Electric Claw" ,
-							Icon = "http://www.roblox.com/asset/?id=16191771622",
+							Icon = "http://www.roblox.com/asset/?id=12523036534",
 							Duration = 2.5
 						})
 					end
@@ -6131,7 +6131,7 @@ spawn(function()
 								game.StarterGui:SetCore("SendNotification", {
 									Title = "Notification", 
 									Text = "Not Have Enough Material" ,
-									Icon = "http://www.roblox.com/asset/?id=16191771622",
+									Icon = "http://www.roblox.com/asset/?id=12523036534",
 									Duration = 2.5
 								})
 							else
@@ -6142,7 +6142,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Dragon Talon" ,
-							Icon = "http://www.roblox.com/asset/?id=16191771622",
+							Icon = "http://www.roblox.com/asset/?id=12523036534",
 							Duration = 2.5
 						})
 					end
@@ -7348,7 +7348,7 @@ end
         StopTween(_G.AutoSwordMastery)
     end)
     
-    --CodeX_Auto_Sword_Mastery
+    --HygorL_Auto_Sword_Mastery
     spawn(function()
         pcall(function()
             while wait() do
@@ -14589,9 +14589,15 @@ spawn(function()
 print("Carregado com sucesso!")
 
 game.StarterGui:SetCore("SendNotification", {
-      Icon = "http://www.roblox.com/asset/?id=16191771622";
-      Title = "CodeX", 
-      Text = "Thank you for using CodeX";
+      Icon = "http://www.roblox.com/asset/?id=12523036534";
+      Title = "Hysoal Hub Free", 
+      Text = "Bem vindo! Aproveite nosso script";
+})
+wait(3)
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "http://www.roblox.com/asset/?id=12523036534";
+      Title = "HygorL Hub", 
+      Text = "Feito por HygorL e HashishX";
 })
 
    
